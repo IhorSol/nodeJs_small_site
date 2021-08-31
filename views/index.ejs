@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="public/css/style.css">
+  <title>Заголовок страницы</title>
+</head>
+<body>
+
+  <header>
+    <%- include ('blocks/header.ejs') %>
+  </header>
+
+  <section class="main-section">
+
+    <div class="news">
+      <img src="public/pictures/pc.jpg" alt="img_1">
+      <h3>Статья про компьютеры</h3>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem modi ad saepe magni omnis ipsa, laboriosam architecto hic iure reiciendis perferendis consequatur eos veritatis, odio, facilis enim voluptates assumenda accusamus.
+
+      <img src="public/pictures/pc2.jpeg" alt="img_2">
+      <h3>Статья про компьютеры</h3>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem modi ad saepe magni omnis ipsa, laboriosam architecto hic iure reiciendis perferendis consequatur eos veritatis, odio, facilis enim voluptates assumenda accusamus.
+    </div>
+
+    <%- include('blocks/right-bar.ejs') %>
+
+  </section>
+
+  <%- include ('blocks/footer.ejs') %>
+
+</body>
+</html>
